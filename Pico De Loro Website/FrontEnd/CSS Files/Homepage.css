@@ -1,0 +1,110 @@
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Georgia", serif;
+}
+
+/* NAVBAR */
+.navbar {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 110%;
+  background: white;
+  border-radius: 15px;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  z-index: 10;
+}
+
+/* LOGO */
+.logo {
+  width: 60px;
+}
+
+/* NAV LINKS */
+.nav-center a {
+  text-decoration: none;
+  margin: 0 15px;
+  color: #c9a23f;
+  font-size: 30px;
+}
+
+.nav-center a:hover {
+  text-decoration: underline;
+}
+
+/* BOOK BUTTON */
+.book-btn {
+  background: #0a3d91;
+  color: #ffffff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.book-btn:hover {
+  opacity: 0.9;
+}
+
+/* HERO SECTION */
+.hero {
+  height: 100vh;
+  background-image: url("../Photos/Homepage_pico.jpg"); /* YOUR IMAGE */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* HERO TEXT */
+.hero-text {
+  position: absolute;
+  left: 80px;
+  top: 30%;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 80px;
+  text-shadow: 20px 2px 8px rgba(0,0,0,0.6);
+  
+}
+
+.hero-text h2 {
+  font-size: 36px;
+  color: #d4af37;
+  text-shadow: 50px 10px 8px rgba(0,0,0,0.6);
+  left: 10%;
+}
+body {
+  background-color: #003A8F;
+}
+.welcome-message {
+text-align: center;
+  font-size: 36px;
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 24px;
+  text-shadow: 10px 2px 8px rgba(0,0,0,0.6);
+}
+
+.image-row {
+  display: flex;
+  gap: 25px;
+}
+.image-row img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 20px;
+  flex: 1;
+}
