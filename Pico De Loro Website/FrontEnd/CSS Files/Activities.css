@@ -1,0 +1,13 @@
+.guest-fee-inclusions {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10%;
+  color: white;
+  font-size: 30px;
+  font-family: 'Cinzel', serif;
+}
+.guest-fee-inclusions h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}

@@ -5,16 +5,19 @@
   margin: 5%;
   color: white;
   font-size: 60px;
+  font-family: 'Cinzel', serif;
 }
 td {
     padding: 10px 20px;
     font-size: 30px;
     color: white;
+    font-family: 'Cinzel', serif;
 }
 
 .social-link{
     color: white;
     text-decoration: underline;
+    font-family: 'Cinzel', serif;
 }
 .social-link:hover{
     color: #FFD700;
