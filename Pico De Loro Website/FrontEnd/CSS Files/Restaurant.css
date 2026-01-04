@@ -1,0 +1,9 @@
+.resto-photos{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10%;
+  color: white;
+  font-size: 30px;
+  font-family: 'Cinzel', serif;
+}
